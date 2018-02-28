@@ -181,7 +181,7 @@ abstract class PdfGeneratorBean
      * @param array $data
      * @return string
      */
-    protected function render($template, array $data = [])
+    public function render($template, array $data = [])
     {
         return $this->templating->render($template, $data);
     }
