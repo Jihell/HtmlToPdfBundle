@@ -3,9 +3,9 @@ parameters:
 
 services:
     jihel.plugin.html_to_pdf.generator.pdf:
-        class: %jihel.plugin.html_to_pdf.generator.pdf.class%
+        class: "%jihel.plugin.html_to_pdf.generator.pdf.class%"
         arguments:
-            - '@templating'
+            - "@templating"
             - %jihel.plugin.html_to_pdf.commands%
             - %jihel.plugin.html_to_pdf.constants%
             - %jihel.plugin.html_to_pdf.commands.dpi%
